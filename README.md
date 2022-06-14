@@ -1,14 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Template whit Bootstrap, Bootstrap icons and Lintesrs (HTML, CSS, JS) included
+# Leaderboard Project working with an API
 
-## Template ready to start a new project whit Webpack included
- 
-### Use this template for new projects
+## In this project we are going to use a API to submit player scores and names and them will be showed in the Leaderboard.
+
+## There will be a button "refresh" were you can update the Leaderboard with the data from the API that we are going to work on.
+
+### In this project I will work with async/await functionality in JavaScript
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link]() ---Soon---
 
 ## Build With
 
@@ -21,11 +23,11 @@
 
 - HTML 
 - CSS
-- JS
+- JS ES6
 
 ## Getting Started
 
-Press in the right top corner message "Use this template" to create a new project based on the files of this project.
+- Press in the right top corner message "code" to clone the project.
 
 ### Prerequisites
 
@@ -33,8 +35,7 @@ Press in the right top corner message "Use this template" to create a new projec
 
 ### Setup
 
-- Press in the right top corner message "Use this template" to create a new project based on the files of this project.
-- Select the method that you want to clone
+- Select the method that you want to use for clone.
 
 ### Install
 
@@ -66,3 +67,7 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
+## 📝 License
+
+This project is MIT licensed.
