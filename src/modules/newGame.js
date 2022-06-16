@@ -1,5 +1,5 @@
 const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-const GAME_ID = 'yNCgbzAF5NAjC2VtYumm';
+const GAME_ID = 't51dVC8ZjqCBF7OnX91u';
 
 export const newGame = () => {
   fetch(api, {
@@ -11,7 +11,7 @@ export const newGame = () => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   })
-    .then((response) => response.json());
+    .then((response) => response.json())
 };
 
 export { GAME_ID, api };
