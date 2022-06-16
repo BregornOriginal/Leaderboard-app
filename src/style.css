@@ -29,7 +29,6 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 0 0 40px 0;
-
 }
 
 .leaderboard-container {
@@ -49,7 +48,6 @@ h2 {
   border: 2px solid rgb(75, 0, 75);
   background: linear-gradient(to bottom, hsl(188, 100%, 14%), rgb(255, 243, 243));
   padding: 10px 100px;
-  size: 40px;
 }
 
 .refresh-button {
@@ -102,7 +100,7 @@ h2 {
   background-color: aqua;
 }
 
-.submit-button:active { 
+.submit-button:active {
   background-color: violet;
 }
 
@@ -112,7 +110,6 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
-
   h1 {
     margin: 40px 0 10px 0;
   }
@@ -120,6 +117,7 @@ h2 {
   h2 {
     margin: 0 0 55px 0;
   }
+
   .leaderboard-container {
     flex-direction: unset;
   }
@@ -127,7 +125,8 @@ h2 {
   .new-score {
     margin-left: 200px;
   }
-  .recent-scores{
+
+  .recent-scores {
     margin: 0;
   }
 }
