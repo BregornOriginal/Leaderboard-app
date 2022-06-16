@@ -1,4 +1,4 @@
-import createLi from "./elements";
+import { createLi } from "./elements";
 import getScores from "./get-scores";
 
 const showScore = () => {

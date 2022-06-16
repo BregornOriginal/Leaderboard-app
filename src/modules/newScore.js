@@ -1,17 +1,15 @@
-import { api, GAME_ID } from './newGame';
+import { GAME_ID, api } from './newGame';
+import { getInputData } from './elements';
 
-const addScore = async () => {
-  const newScore = await fetch(`${api}games/${GAME_ID}/scores/`, {
+const addScoreToApi = async (userScore) => {
+  const newScore = await fetch(`${api}/games/${GAME_ID}/scores/`, {
     method: 'POST',
     headers: {
       'Content-type': 'application/json; charset=UTF-8'
     },
-    body: JSON.stringify({
-      user: 'Julio',
-      score: 30,
-    }),
+    body: JSON.stringify({ user: userScore.name, score: userScore.score }),
   })
-  return newScore.json();
+  return newScore;
 }
 
-export default addScore;
+export default addScoreToApi;
