@@ -4,7 +4,7 @@
 
 ## In this project we are going to use a API to submit player scores and names and them will be showed in the Leaderboard.
 
-## There will be a button "refresh" were you can update the Leaderboard with the data from the API that we are going to work on.
+### There is a button "refresh" were you can update the Leaderboard with the data from the API that we are going to work on.
 
 ### In this project I will work with async/await functionality in JavaScript
 
