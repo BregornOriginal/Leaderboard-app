@@ -4,7 +4,7 @@ import addScoreToApi from './newScore.js';
 const listOfScores = document.querySelector('.list-of-scores');
 const nameInput = document.querySelector('.name-input');
 const scoreInput = document.querySelector('.score-input');
-const errorMessage = document.querySelector('.error-messsage');
+const errorMessage = document.querySelector('.error-message');
 
 const createLi = (text) => {
   const newLi = document.createElement('li');
