@@ -10,5 +10,7 @@ const refreshButton = document.querySelector('.refresh-button');
 console.log(getScores)
 
 refreshButton.addEventListener('click',() => {
+  const scores = document.querySelector('.list-of-scores');
+  scores.innerHTML = '';
   showScore();
 });

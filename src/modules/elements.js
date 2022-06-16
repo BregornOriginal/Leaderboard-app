@@ -1,9 +1,10 @@
-const scores = document.querySelector('.list-of-scores');
+const listOfScores = document.querySelector('.list-of-scores');
 
 const createLi = (text) => {
   const newLi = document.createElement('li');
+  newLi.classList.add('scores');
   newLi.innerHTML = text;
-  scores.appendChild(newLi);
+  listOfScores.appendChild(newLi);
 }
 
 export default createLi;

@@ -1,5 +1,4 @@
-const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const GAME_ID = 'bKsXdJ25X3KNYzp5Qrbc';
+import { api, GAME_ID } from './newGame';
 
 const addScore = async () => {
   const newScore = await fetch(`${api}games/${GAME_ID}/scores/`, {
