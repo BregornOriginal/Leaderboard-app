@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link]() ---Soon---
+[Netlify](https://jgagliardi-leaderboard.netlify.app/) 
 
 ## Build With
 
