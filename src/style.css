@@ -4,8 +4,12 @@
 }
 
 body {
-  background: linear-gradient(to bottom, hsl(192, 100%, 20%), rgb(255, 243, 243));
-  font-family: 'Baloo 2', cursive;
+  background: linear-gradient(
+    to bottom,
+    hsl(192, 100%, 20%),
+    rgb(255, 243, 243)
+  );
+  font-family: "Baloo 2", cursive;
   height: 100vh;
 }
 
@@ -46,7 +50,11 @@ h2 {
 
 .scores {
   border: 2px solid rgb(75, 0, 75);
-  background: linear-gradient(to bottom, hsl(188, 100%, 14%), rgb(255, 243, 243));
+  background: linear-gradient(
+    to bottom,
+    hsl(188, 100%, 14%),
+    rgb(255, 243, 243)
+  );
   padding: 10px 100px;
 }
 

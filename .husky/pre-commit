@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx eslint . --fix
 npm run format
+npx eslint . --fix
+git add -A .
