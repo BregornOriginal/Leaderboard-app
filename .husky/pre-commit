@@ -3,4 +3,5 @@
 
 npm run format
 npx eslint . --fix
+npx stylelint "**/*.{css,scss}" --fix
 git add -A .
