@@ -11,6 +11,8 @@
     "express": "^4.18.1",
     "hint": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.7.1",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
@@ -21,7 +23,7 @@
     "webpack-dev-middleware": "^5.3.3",
     "webpack-dev-server": "^4.9.1"
   },
-  "name": "to-do-list-whit-webpack",
+  "name": "leaderboard-app",
   "description": "Using Webpack in a project",
   "version": "1.0.0",
   "private": "true",
@@ -34,7 +36,10 @@
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
-    "build": "webpack"
+    "build": "webpack",
+    "prepare": "husky install",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
