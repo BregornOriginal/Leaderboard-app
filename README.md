@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Netlify](https://jgagliardi-leaderboard.netlify.app/) 
+[Netlify](https://jgagliardi-leaderboard.netlify.app/)
 
 ## Build With
 
@@ -21,7 +21,7 @@
 
 ### Technologies
 
-- HTML 
+- HTML
 - CSS
 - JS ES6
 

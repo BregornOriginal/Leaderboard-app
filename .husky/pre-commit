@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run format
+npx eslint . --fix
+npx stylelint "**/*.{css,scss}" --fix
+git add -A .
